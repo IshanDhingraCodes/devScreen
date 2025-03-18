@@ -1,5 +1,5 @@
 import { db } from "@/lib/db";
-import { loginSchema } from "@/schema/auth.schema";
+import { loginSchema } from "@/schema/auth.validation";
 import bcrypt from "bcryptjs";
 import { NextRequest, NextResponse } from "next/server";
 import jwt from "jsonwebtoken";
